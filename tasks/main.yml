@@ -1,0 +1,10 @@
+---
+- name: install libselinux-python as dependency
+  yum:
+    name: libselinux-python
+    state: latest
+
+- name: control selinux
+  selinux:
+    policy: '{{ selinux_policy | default(omit) }}'
+    state: '{{ selinux_state | default(omit) }}'

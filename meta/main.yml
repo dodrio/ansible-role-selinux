@@ -1,0 +1,14 @@
+galaxy_info:
+  author: m31271n
+  description: Ansible role that controls SELinux.
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  galaxy_tags:
+  - selinux
+  - disable selinux
+
+dependencies: []

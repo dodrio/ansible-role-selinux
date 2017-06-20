@@ -12,7 +12,7 @@ None.
 ## Role Variables
 
 + `selinux_state` (default `disabled`)
-+ `selinux_policy` (default ``)
++ `selinux_policy` (default ` `)
 
 Read [selinux](http://docs.ansible.com/ansible/selinux_module.html) for more information.
 
